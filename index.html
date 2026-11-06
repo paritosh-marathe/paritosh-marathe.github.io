@@ -1,520 +1,255 @@
-<!DOCTYPE html>
-<html class="no-js ss-preload" lang="en">
-<head>
+---
+layout: home
+title: Paritosh Marathe
+description: AI systems engineer — edge vision, industrial telemetry, and software built for the field.
+body_class: page-home
+---
 
-    <!--- basic page needs
-    ================================================== -->
-    <meta charset="utf-8">
-    <title>Paritosh</title>
-    <meta name="description" content="portfolio site for partiosh Marathe">
-    <meta name="author" content="">
-
-    <!-- mobile specific metas
-    ================================================== -->
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <!-- CSS
-    ================================================== -->
-    <link rel="stylesheet" href="css/vendor.css">
-    <link rel="stylesheet" href="css/styles.css">
-
-    <!-- favicons
-    ================================================== -->
-    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
-    <link rel="manifest" href="site.webmanifest">
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-
-</head>
-
-<body id="top">
-
-
-    <!-- # preloader
-    ================================================== -->
-    <div id="preloader">
-        <div id="loader">
-        </div>
+<section class="hero" aria-label="Introduction">
+  <div class="hero__copy">
+    <p class="eyebrow"><span class="status-dot" aria-hidden="true"></span> AI systems engineer / Edge · Software · Infrastructure</p>
+    <h1 class="hero__brand"><span>PARITOSH</span><span class="hero__line--gold">MARATHE<span class="hero__period">.</span></span></h1>
+    <p class="hero__thesis">Good systems.<br>Built to hold up.</p>
+    <p class="hero__note">I build the software between cameras, machines, and the people who depend on them. Edge AI, industrial telemetry, and systems that work beyond the demo.</p>
+    <div class="btn-row">
+      <a class="btn" href="#work">Explore my work <span aria-hidden="true">↗</span></a>
+      <a class="text-link" href="{{ '/resources/paritosh_marathe_resume.pdf' | relative_url }}">Résumé <span aria-hidden="true">↓</span></a>
     </div>
-
-
-    <!-- # page wrap
-    ================================================== -->
-    <div class="s-pagewrap">
-
-        <div class="circles">
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span>
-        </div>
-
-
-        <!-- ## site header 
-        ================================================== -->
-        <header class="s-header">
-
-            <div class="header-mobile">
-                <span class="mobile-home-link"><a href="index.html">Paritosh Marathe</a></span>
-                <a class="mobile-menu-toggle" href="#0"><span>Menu</span></a>
-            </div>
-
-            <div class="row wide main-nav-wrap">
-                <nav class="column lg-12 main-nav">
-                    <ul>
-                        <li><a href="index.html" class="home-link">Paritosh Marathe</a></li>
-                        <li class="current"><a href="#intro" class="smoothscroll">Intro</a></li>
-                        <li><a href="#about" class="smoothscroll">About</a></li>
-                        <li><a href="#works" class="smoothscroll">Projects</a></li>
-                        <li><a href="#contact" class="smoothscroll">Get in touch</a></li>
-                    </ul>
-                </nav>
-            </div>
-
-        </header> <!-- end s-header -->
-
-
-        <!-- ## main content
-        ==================================================- -->
-        <main class="s-content">
-
-
-            <!-- ### intro
-            ================================================== -->
-            <section id="intro" class="s-intro target-section">
-
-                <div class="row intro-content wide">
-
-                    <div class="column">
-                        <div class="text-pretitle with-line">
-                            Hello there!
-                        </div>
-
-                        <h1 class="text-huge-title">
-                            I am Paritosh, <br>
-                            a  <br>
-                            Software Developer
-                            <span id="feature-text"></span>
-                            <span class="input-cursor"></span>
-                        </h1>
-                    </div>
-
-                    <ul class="intro-social">
-                        <li><a href="https://github.com/paritosh-marathe">Github</a></li>
-                        <li><a href="https://www.linkedin.com/in/paritosh-marathe ">LinkedIn</a></li>
-                        <li><a href="https://www.instagram.com/paritosh_marathe">Instagram</a></li>
-                    </ul>
-
-                </div> <!-- end intro content -->
-
-                <a href="#about" class="intro-scrolldown smoothscroll">
-                    <svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd"><path d="M11 21.883l-6.235-7.527-.765.644 7.521 9 7.479-9-.764-.645-6.236 7.529v-21.884h-1v21.883z"/></svg>
-                </a>
-
-            </section> <!-- end s-intro -->
-
-
-            <!-- ### about
-            ================================================== -->
-            <section id="about" class="s-about target-section">
-
-
-                <div class="row about-info wide" data-animate-block>
-
-                    <div class="column lg-6 md-12 about-info__pic-block">
-                        <img src="images/about-photo.jpeg" 
-                             srcset="images/about-photo.jpeg 1x" alt="" class="about-info__pic" data-animate-el>
-                    </div>
-
-                    <div class="column lg-6 md-12">
-                        <div class="about-info__text" >
-
-                            <h2 class="text-pretitle with-line" data-animate-el>
-                                About
-                            </h2>
-                            <p class="attention-getter" data-animate-el>
-                                As a graduate student in Computer Science with a focus on Artificial Intelligence, I am passionate about utilizing my skills in Python development,
-                                machine learning, and DevOps to drive innovation and optimize complex systems. With hands-on experience in developing machine learning models, 
-                                automating deployment pipelines, and improving data management processes, I bring a well-rounded technical foundation to solve real-world challenges.
-                                You got problems? I got the solution!
-                            </p>
-                            <a href="/resources/PM_resume_.pdf" class="btn btn--medium u-fullwidth" data-animate-el>Download CV</a>
-
-                        </div>
-                    </div>
-                </div> <!-- about-info -->
-
-
-                <div class="row about-expertise" data-animate-block>
-                    <div class="column lg-12">
-
-                        <h2 class="text-pretitle" data-animate-el>Expertise</h2>
-
-                        <ul class="skills-list h1" data-animate-el>
-                            <li>Python </li>
-                            <li>DevOps </li>
-                            <li>Software Development</li>
-                            <li>Computer Vision</li>
-                            <li>Prototyping</li>
-                        </ul>
-
-                    </div>
-                </div> <!-- end about-expertise -->
-
-
-                <div class="row about-timelines" data-animate-block>
-
-                    <div class="column lg-6 tab-12">
-
-                        <h2 class="text-pretitle" data-animate-el>
-                            Experience
-                        </h2>
-
-                        <div class="timeline" data-animate-el>
-
-                            <div class="timeline__block">
-                                <div class="timeline__bullet"></div>
-                                <div class="timeline__header">
-                                    <h4 class="timeline__title">Wolfspeed</h3>
-                                    <h5 class="timeline__meta">Solutions Architect</h5>
-                                    <p class="timeline__timeframe">August 2023 - May 2024</p>
-                                </div>
-                                <div class="timeline__desc">
-                                    <p>Engineered a new data dictionary for MES database with 300+ relational objects.
-                                       <br> Worked on Python project for optimizing dataflow and data archiving by 20%. </p>
-                                </div>
-                            </div>
-    
-                            <div class="timeline__block">
-                                <div class="timeline__bullet"></div>
-                                <div class="timeline__header">
-                                    <h4 class="timeline__title">Wolfspeed</h4>
-                                    <h5 class="timeline__meta">Manufacturing Execution Systems Intern</h5>
-                                    <p class="timeline__timeframe">May 2023 - August 2023</p>
-                                </div>
-                                <div class="timeline__desc">
-                                    <p>Spearheaded standardization and templatation of Azure CI / CD pipelines for 30% faster 
-                                        deployments due to reduced manual configuration and aligned Test Driven Development practices.</p>
-                                </div>
-                            </div>
-                            <div class="timeline__block">
-                                <div class="timeline__bullet"></div>
-                                <div class="timeline__header">
-                                    <h4 class="timeline__title">ASN Computer Education </h3>
-                                    <h5 class="timeline__meta">Instructor</h5>
-                                    <p class="timeline__timeframe">August 2021 - July 2022</p>
-                                </div>
-                                <div class="timeline__desc">
-                                    <p>Trained 30+ students in Object-Oriented Programming (OOP) using JAVA, enabling 80% of participants to successfully develop and deploy their own applications, enhancing their practical coding skills. </p>
-                                </div>
-                            </div>
-                            <div class="timeline__block">
-                                <div class="timeline__bullet"></div>
-                                <div class="timeline__header">
-                                    <h4 class="timeline__title">Anveshak Technologies and Knowledge Solutions</h3>
-                                    <h5 class="timeline__meta">Associate Developer </h5>
-                                    <p class="timeline__timeframe">September 2020 – June 2021</p>
-                                </div>
-                                <div class="timeline__desc">
-                                    <p>Engineered a web scraping and PDF extraction pipeline, integrating advanced data preprocessing and cleaning techniques, which boosted contract tender information extraction speed by 35% compared to manual methods, improving overall operational efficiency </p>
-                                </div>
-                            </div>
-                            <!-- <div class="timeline__block"></div>
-                                <div class="timeline__bullet"></div>
-                                <div class="timeline__header">
-                                    <h4 class="timeline__title">Excellancea Digital Technologies Private Limited</h3>
-                                    <h5 class="timeline__meta">Research Intern </h5>
-                                    <p class="timeline__timeframe">June 2020 - September 2020</p>
-                                </div>
-                                <div class="timeline__desc">
-                                    <p>Developed a proof of concept for a real-time vehicle tracking system utilizing YOLO with edge deployment, designed to handle large-scale data in low-latency environments. </p>
-                                </div>
-                            </div> -->
-                            
-                        </div> <!-- end timeline -->
-
-                    </div> <!-- end column -->
-
-                    <div class="column lg-6 tab-12">
-
-                        <h2 class="text-pretitle" data-animate-el>
-                            Education
-                        </h2>
-
-                        <div class="timeline" data-animate-el>
-
-                            <div class="timeline__block">
-                                <div class="timeline__bullet"></div>
-                                <div class="timeline__header">
-                                    <h4 class="timeline__title">Binghamton University at SUNY</h3>
-                                    <h5 class="timeline__meta">Masters in Computer Science</h5>
-                                    <p class="timeline__timeframe">August 2022 - May 2024</p>
-                                </div>
-                                <div class="timeline__desc">
-                                    <p></p>
-                                </div>
-                            </div>
-    
-                            <div class="timeline__block">
-                                <div class="timeline__bullet"></div>
-                                <div class="timeline__header">
-                                    <h4 class="timeline__title">Vishwakarma Institute of Information Technology</h4>
-                                    <h5 class="timeline__meta">Bachelor's in Computer Engineering</h5>
-                                    <p class="timeline__timeframe">July 2016 - September 2020</p>
-                                </div>
-                                <div class="timeline__desc">
-                                    <p> </p>
-                                </div>
-                            </div>
-    
-                        </div> <!-- end timeline -->
-                        
-                    </div> <!-- end column -->
-
-
-                </div> <!-- end about-timelines -->
-
-            </section> <!-- end s-about -->
-
-
-            <!-- ### works
-            ================================================== -->
-            <section id="works" class="s-works target-section">
-
-
-                <div class="row works-portfolio">
-
-                    <div class="column lg-12" data-animate-block>
-
-                        <h2 class="text-pretitle" data-animate-el>
-                            Recent Works
-                        </h2>
-                        <p class="h1" data-animate-el>
-                            Here are some of my favorite projects I have done lately. Feel free to check them out.
-                        </p>
-    
-                        <ul class="folio-list row block-lg-one-half block-stack-on-1000">
-
-                            <li class="folio-list__item column" data-animate-el>
-                                <a class="folio-list__item-link" href="#modal-01">
-                                    <div class="folio-list__item-pic">
-                                        <img src="images/portfolio/port.png"
-                                             srcset="images/portfolio/port.png"  alt="">
-                                    </div>
-                                    
-                                    <div class="folio-list__item-text">
-                                        <div class="folio-list__item-cat">
-                                            Website
-                                        </div>
-                                        <div class="folio-list__item-title">
-                                            Personal Port folio Website
-                                        </div>
-                                    </div>
-                                </a>
-                                <a class="folio-list__proj-link" href="#" title="project link">
-                                    <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M8.14645 3.14645C8.34171 2.95118 8.65829 2.95118 8.85355 3.14645L12.8536 7.14645C13.0488 7.34171 13.0488 7.65829 12.8536 7.85355L8.85355 11.8536C8.65829 12.0488 8.34171 12.0488 8.14645 11.8536C7.95118 11.6583 7.95118 11.3417 8.14645 11.1464L11.2929 8H2.5C2.22386 8 2 7.77614 2 7.5C2 7.22386 2.22386 7 2.5 7H11.2929L8.14645 3.85355C7.95118 3.65829 7.95118 3.34171 8.14645 3.14645Z" fill="currentColor" fill-rule="evenodd" clip-rule="evenodd"></path></svg>
-                                </a>
-                            </li> <!--end folio-list__item -->
-
-                            
-                        </ul> <!-- end folio-list -->
-
-                    </div> <!-- end column -->
-
-
-                    <!-- Modal Templates Popup
-                    -------------------------------------------- -->
-                    <div id="modal-01" hidden>
-                        <div class="modal-popup">
-                            <img src="images/portfolio/port.png" alt="">
-                
-                            <div class="modal-popup__desc">
-                                <h5>Personal portfolio website</h5>
-                                <p>Because who wouldn't want one ??? 
-                                </p>
-                                <ul class="modal-popup__cat">
-                                    <li>HTML</li>
-                                    <li>CSS</li>
-                                    <li>Javascript</li>
-                                </ul>
-                            </div>
-                
-                            <a href="#" class="modal-popup__details">Project link</a>
-                        </div>
-                    </div> <!-- end modal -->
-
-                    
-
-                </div> <!-- end works-portfolio -->
-
-
-                <div class="row testimonials">
-                    <div class="column lg-12" data-animate-block>
-                        <h2 class="text-pretitle" data-animate-el>
-                            Technologies
-                        </h2>
-        
-                        <div class="swiper-container testimonial-slider" data-animate-el>
-        
-                            <div class="swiper-wrapper">
-
-                               <!-- <div class="testimonial-slider__slide swiper-slide">
-                                    <div class="testimonial-slider__author">
-                                        <img src="images/avatars/user-02.jpg" alt="Author image" class="testimonial-slider__avatar">
-                                        <cite class="testimonial-slider__cite">
-                                            <strong>Tim Cook</strong>
-                                            <span>CEO, Apple</span>
-                                        </cite>
-                                    </div>
-                                    <p>
-                                    Molestiae incidunt consequatur quis ipsa autem nam sit enim magni. Voluptas tempore rem. 
-                                    Explicabo a quaerat sint autem dolore ducimus ut consequatur neque.  Nisi dolores quaerat fuga rem nihil nostrum.
-                                    Laudantium quia consequatur molestias delectus culpa.
-                                    </p>
-                                </div>--> <!-- end testimonial-slider__slide -->
-                                
-                                <div class="testimonial-slider__slide swiper-slide">
-                                    <div class="testimonial-slider__author">
-                                        <img src="https://img.icons8.com/?size=100&id=13441&format=png&color=000000" alt="Python" > 
-                                        <cite class="testimonial-slider__cite">
-                                            <strong>Python</strong>
-                                        </cite>
-                                    </div>
-                                    
-                                </div> <!-- end testimonial-slider__slide -->
-                                <div class="testimonial-slider__slide swiper-slide">
-                                    <div class="">
-                                        <img src="https://img.icons8.com/?size=100&id=13679&format=png&color=000000"  class=".testimonial-slider__image" alt="Java" > 
-                                        <cite class="testimonial-slider__cite">
-                                            <strong>Java</strong>
-                                        </cite>   
-                                    </div>
-                                </div> <!-- end testimonial-slider__slide -->
-                                <div class="testimonial-slider__slide swiper-slide">
-                                    <div class="testimonial-slider__author">
-                                        <img src="https://img.icons8.com/?size=100&id=VLKafOkk3sBX&format=png&color=000000" alt="Azure" >   
-                                        <cite class="testimonial-slider__cite">
-                                            <strong>Azure</strong>
-                                        </cite>
-                                    </div>   
-                                </div> <!-- end testimonial-slider__slide -->
-                                <div class="testimonial-slider__slide swiper-slide">
-                                    <div class="testimonial-slider__author">
-                                        <img src="https://img.icons8.com/?size=100&id=38561&format=png&color=000000" alt="Postgres" >   
-                                        <cite class="testimonial-slider__cite">
-                                            <strong>Postgres</strong>
-                                        </cite>
-                                    </div>
-                                </div> <!-- end testimonial-slider__slide -->
-                                <div class="testimonial-slider__slide swiper-slide">
-                                    <div class="testimonial-slider__author">
-                                        <img src="https://img.icons8.com/?size=100&id=jH4BpkMnRrU5&format=png&color=000000" alt="Pytorch" >   
-                                        <cite class="testimonial-slider__cite">
-                                            <strong>Pytorch</strong>
-                                        </cite>
-                                    </div>   
-                                </div> <!-- end testimonial-slider__slide -->
-                                <div class="testimonial-slider__slide swiper-slide">
-                                    <div class="testimonial-slider__author">
-                                        <img src="https://img.icons8.com/?size=100&id=22813&format=png&color=000000" alt="Docker" >   
-                                        <cite class="testimonial-slider__cite">
-                                            <strong>Docker</strong>
-                                        </cite>
-                                    </div>    
-                                </div> <!-- end testimonial-slider__slide -->
-                                <div class="testimonial-slider__slide swiper-slide">
-                                    <div class="testimonial-slider__author">
-                                        <img src="https://img.icons8.com/?size=100&id=xSkewUSqtErH&format=png&color=000000" alt="Pandas" >   
-                                        <cite class="testimonial-slider__cite">
-                                            <strong>Pandas</strong>
-                                        </cite>
-                                    </div>    
-                                </div> <!-- end testimonial-slider__slide -->
-                
-                            </div> <!-- end swiper-wrapper -->
-        
-                            <div class="swiper-pagination"></div>
-        
-                        </div> <!-- end swiper-container -->
-        
-                    </div> <!-- end column -->
-                </div> <!-- end row testimonials -->
-
-            </section> <!-- end s-works -->
-
-
-            <!-- ### contact
-            ================================================== -->
-            <section id="contact" class="s-contact target-section">
-
-                <div class="row contact-top">
-                    <div class="column lg-12">
-                        <h2 class="text-pretitle">
-                            Get In Touch
-                        </h2>
-
-                        <p class="h1">
-                            I love to hear from you.
-                            Whether you have a question or just 
-                            want to chat about AI, tech or coffee — shoot me a message.
-                        </p>
-                    </div>
-                </div> <!-- end contact-top -->
-
-                <div class="row contact-bottom">
-                    <div class="column lg-3 md-5 tab-6 stack-on-550 contact-block">
-                        <h3 class="text-pretitle">Reach me at</h3>
-                        <p class="contact-links">
-                            <a href="mailto:pmparitoshmarathe@gmail.com" class="mailtoui">Gmail </a> <br>
-                            <a href="tel:+19177331902">+1917 733 1902</a>
-                        </p>
-                    </div>
-                    <div class="column lg-4 md-5 tab-6 stack-on-550 contact-block">
-                        <h3 class="text-pretitle">Social</h3>
-                        <ul class="contact-social">
-                            <li><a href="https://www.linkedin.com/in/paritosh-marathe ">LinkedIn</a></li>
-                            <li><a href="https://www.instagram.com/paritosh_marathe">Instagram</a></li>
-                            <li><a href="https://github.com/paritosh-marathe">Github</a></li>
-                        </ul>
-                    </div>
-                    <div class="column lg-4 md-12 contact-block">
-                        <a href="mailto:pmparitoshmarathe@gmail.com" class="mailtoui btn btn--medium u-fullwidth contact-btn">Say Hello.</a>
-                    </div>
-                </div> <!-- end contact-bottom -->
-
-            </section> <!-- end contact -->
-
-        </main> <!-- end s-content -->
-
-
-        <!-- ## footer
-        ================================================== -->
-        <footer class="s-footer">
-
-            <div class="row">
-                <div class="column ss-copyright">
-                    <span>© Copyright Luther 2021</span> 
-                    <span>Design by <a href="https://www.styleshout.com/">StyleShout</a> Distribution By <a href="https://themewagon.com">Themewagon</a></span>
-                </div>
-
-                <div class="ss-go-top">
-                    <a class="smoothscroll" title="Back to Top" href="#top">
-                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill-rule="evenodd" clip-rule="evenodd"><path d="M11 2.206l-6.235 7.528-.765-.645 7.521-9 7.479 9-.764.646-6.236-7.53v21.884h-1v-21.883z"/></svg>
-                    </a>
-                </div>
-            </div>
-
-        </footer> <!-- end s-footer -->
-
-    </div> <!-- end -s-pagewrap -->
-
-
-    <!-- Java Script
-    ================================================== -->
-    <script src="js/plugins.js"></script>
-    <script src="js/main.js"></script>
-
-</body>
-</html>
+    <div class="hero__social"><a href="https://github.com/paritosh-marathe">GitHub ↗</a><a href="https://www.linkedin.com/in/paritosh-marathe">LinkedIn ↗</a><a href="mailto:pmparitoshmarathe@gmail.com">Email ↗</a></div>
+  </div>
+  <figure class="hero__portrait">
+    <div class="portrait-label"><span>FROM THE CODE TO THE FIELD</span><span aria-hidden="true">↙</span></div>
+    <div class="portrait-frame"><img src="{{ '/images/portrait-clean.jpg' | relative_url }}" alt="Portrait of Paritosh Marathe" width="960" height="1200"></div>
+    <figcaption><span>Software depth. Field experience.</span><span class="portrait-cross" aria-hidden="true">+</span></figcaption>
+  </figure>
+  <div class="hero__footer"><span>LESS FRICTION. BETTER SYSTEMS.</span><a href="#work">SCROLL TO EXPLORE ↓</a></div>
+</section>
+
+<section id="skills" class="section skills-section" aria-labelledby="skills-title">
+  <div class="section-heading">
+    <div><p class="eyebrow">THE TOOLKIT / MY SKILLS</p><h2 id="skills-title" class="section-title">The tools behind<br><span class="muted">the work.</span></h2></div>
+    <p class="section-heading__aside">From writing the code<br>to getting it out the door.</p>
+  </div>
+  <div class="skills-grid">
+    <article class="skill-card">
+      <div class="skill-card__heading"><span class="skill-card__symbol" aria-hidden="true"><svg class="skill-category-icon" width="16" height="16" aria-hidden="true"><use href="{{ '/images/skills/symbols.svg' | relative_url }}#code"></use></svg></span><h3>Languages &amp; backend</h3></div>
+      <p>From concurrent services to APIs and application logic.</p>
+      <ul class="skill-list"><li><img class="skill-icon" src="{{ '/images/skills/python.svg' | relative_url }}" alt="" width="16" height="16" loading="lazy"><span>Python</span></li><li><img class="skill-icon" src="{{ '/images/skills/cplusplus.svg' | relative_url }}" alt="" width="16" height="16" loading="lazy"><span>C/C++</span></li><li><img class="skill-icon" src="{{ '/images/skills/java.svg' | relative_url }}" alt="" width="16" height="16" loading="lazy"><span>Java</span></li><li><img class="skill-icon" src="{{ '/images/skills/gnubash.svg' | relative_url }}" alt="" width="16" height="16" loading="lazy"><span>Bash</span></li><li><svg class="skill-icon" width="16" height="16" aria-hidden="true"><use href="{{ '/images/skills/symbols.svg' | relative_url }}#database"></use></svg><span>SQL</span></li><li><img class="skill-icon" src="{{ '/images/skills/dart.svg' | relative_url }}" alt="" width="16" height="16" loading="lazy"><span>Dart</span></li><li><img class="skill-icon" src="{{ '/images/skills/fastapi.svg' | relative_url }}" alt="" width="16" height="16" loading="lazy"><span>FastAPI</span></li><li><img class="skill-icon" src="{{ '/images/skills/django.svg' | relative_url }}" alt="" width="16" height="16" loading="lazy"><span>Django</span></li><li><img class="skill-icon" src="{{ '/images/skills/nextdotjs.svg' | relative_url }}" alt="" width="16" height="16" loading="lazy"><span>Next.js</span></li><li><img class="skill-icon" src="{{ '/images/skills/flutter.svg' | relative_url }}" alt="" width="16" height="16" loading="lazy"><span>Flutter</span></li><li><svg class="skill-icon" width="16" height="16" aria-hidden="true"><use href="{{ '/images/skills/symbols.svg' | relative_url }}#link"></use></svg><span>REST / SOAP</span></li><li><svg class="skill-icon" width="16" height="16" aria-hidden="true"><use href="{{ '/images/skills/symbols.svg' | relative_url }}#network"></use></svg><span>Microservices</span></li></ul>
+    </article>
+    <article class="skill-card">
+      <div class="skill-card__heading"><span class="skill-card__symbol" aria-hidden="true"><svg class="skill-category-icon" width="16" height="16" aria-hidden="true"><use href="{{ '/images/skills/symbols.svg' | relative_url }}#chip"></use></svg></span><h3>Computer vision &amp; edge AI</h3></div>
+      <p>Detection, segmentation, distillation, and deployment on the edge.</p>
+      <ul class="skill-list"><li><img class="skill-icon" src="{{ '/images/skills/pytorch.svg' | relative_url }}" alt="" width="16" height="16" loading="lazy"><span>PyTorch</span></li><li><img class="skill-icon" src="{{ '/images/skills/opencv.svg' | relative_url }}" alt="" width="16" height="16" loading="lazy"><span>OpenCV</span></li><li><svg class="skill-icon" width="16" height="16" aria-hidden="true"><use href="{{ '/images/skills/symbols.svg' | relative_url }}#vision"></use></svg><span>DINOv2 / DINOv3</span></li><li><img class="skill-icon" src="{{ '/images/skills/onnx.svg' | relative_url }}" alt="" width="16" height="16" loading="lazy"><span>ONNX</span></li><li><img class="skill-icon" src="{{ '/images/skills/nvidia.svg' | relative_url }}" alt="" width="16" height="16" loading="lazy"><span>TensorRT</span></li><li><img class="skill-icon" src="{{ '/images/skills/nvidia.svg' | relative_url }}" alt="" width="16" height="16" loading="lazy"><span>Jetson Orin NX</span></li><li><img class="skill-icon" src="{{ '/images/skills/tensorflow.svg' | relative_url }}" alt="" width="16" height="16" loading="lazy"><span>TensorFlow</span></li><li><svg class="skill-icon" width="16" height="16" aria-hidden="true"><use href="{{ '/images/skills/symbols.svg' | relative_url }}#layers"></use></svg><span>Model distillation</span></li><li><svg class="skill-icon" width="16" height="16" aria-hidden="true"><use href="{{ '/images/skills/symbols.svg' | relative_url }}#vision"></use></svg><span>Few-shot / zero-shot detection</span></li><li><svg class="skill-icon" width="16" height="16" aria-hidden="true"><use href="{{ '/images/skills/symbols.svg' | relative_url }}#vision"></use></svg><span>Segmentation</span></li></ul>
+    </article>
+    <article class="skill-card">
+      <div class="skill-card__heading"><span class="skill-card__symbol" aria-hidden="true"><svg class="skill-category-icon" width="16" height="16" aria-hidden="true"><use href="{{ '/images/skills/symbols.svg' | relative_url }}#network"></use></svg></span><h3>Streaming &amp; industrial systems</h3></div>
+      <p>Moving video and telemetry across real-world networks.</p>
+      <ul class="skill-list"><li><img class="skill-icon" src="{{ '/images/skills/ffmpeg.svg' | relative_url }}" alt="" width="16" height="16" loading="lazy"><span>FFmpeg</span></li><li><svg class="skill-icon" width="16" height="16" aria-hidden="true"><use href="{{ '/images/skills/symbols.svg' | relative_url }}#video"></use></svg><span>MediaMTX</span></li><li><img class="skill-icon" src="{{ '/images/skills/gstreamer.svg' | relative_url }}" alt="" width="16" height="16" loading="lazy"><span>GStreamer</span></li><li><img class="skill-icon" src="{{ '/images/skills/webrtc.svg' | relative_url }}" alt="" width="16" height="16" loading="lazy"><span>WebRTC / WHEP</span></li><li><svg class="skill-icon" width="16" height="16" aria-hidden="true"><use href="{{ '/images/skills/symbols.svg' | relative_url }}#network"></use></svg><span>STUN / TURN</span></li><li><img class="skill-icon" src="{{ '/images/skills/mqtt.svg' | relative_url }}" alt="" width="16" height="16" loading="lazy"><span>MQTT / EMQX</span></li><li><svg class="skill-icon" width="16" height="16" aria-hidden="true"><use href="{{ '/images/skills/symbols.svg' | relative_url }}#network"></use></svg><span>DNP3</span></li><li><svg class="skill-icon" width="16" height="16" aria-hidden="true"><use href="{{ '/images/skills/symbols.svg' | relative_url }}#network"></use></svg><span>Modbus TCP</span></li><li><svg class="skill-icon" width="16" height="16" aria-hidden="true"><use href="{{ '/images/skills/symbols.svg' | relative_url }}#network"></use></svg><span>Sparkplug / UNS</span></li></ul>
+    </article>
+    <article class="skill-card">
+      <div class="skill-card__heading"><span class="skill-card__symbol" aria-hidden="true"><svg class="skill-category-icon" width="16" height="16" aria-hidden="true"><use href="{{ '/images/skills/symbols.svg' | relative_url }}#database"></use></svg></span><h3>Data &amp; applied AI</h3></div>
+      <p>Ingestion, time-series analytics, and retrieval grounded in data.</p>
+      <ul class="skill-list"><li><img class="skill-icon" src="{{ '/images/skills/postgresql.svg' | relative_url }}" alt="" width="16" height="16" loading="lazy"><span>PostgreSQL</span></li><li><img class="skill-icon" src="{{ '/images/skills/timescale.svg' | relative_url }}" alt="" width="16" height="16" loading="lazy"><span>TimescaleDB</span></li><li><img class="skill-icon" src="{{ '/images/skills/redis.svg' | relative_url }}" alt="" width="16" height="16" loading="lazy"><span>Redis</span></li><li><img class="skill-icon" src="{{ '/images/skills/mongodb.svg' | relative_url }}" alt="" width="16" height="16" loading="lazy"><span>MongoDB</span></li><li><img class="skill-icon" src="{{ '/images/skills/pandas.svg' | relative_url }}" alt="" width="16" height="16" loading="lazy"><span>Pandas / NumPy</span></li><li><svg class="skill-icon" width="16" height="16" aria-hidden="true"><use href="{{ '/images/skills/symbols.svg' | relative_url }}#search"></use></svg><span>RAG</span></li><li><svg class="skill-icon" width="16" height="16" aria-hidden="true"><use href="{{ '/images/skills/symbols.svg' | relative_url }}#search"></use></svg><span>BM25</span></li><li><img class="skill-icon" src="{{ '/images/skills/qdrant.svg' | relative_url }}" alt="" width="16" height="16" loading="lazy"><span>Qdrant</span></li><li><svg class="skill-icon" width="16" height="16" aria-hidden="true"><use href="{{ '/images/skills/symbols.svg' | relative_url }}#chip"></use></svg><span>GPT4All</span></li><li><img class="skill-icon" src="{{ '/images/skills/apachekafka.svg' | relative_url }}" alt="" width="16" height="16" loading="lazy"><span>Kafka</span></li><li><img class="skill-icon" src="{{ '/images/skills/rabbitmq.svg' | relative_url }}" alt="" width="16" height="16" loading="lazy"><span>RabbitMQ</span></li></ul>
+    </article>
+    <article class="skill-card">
+      <div class="skill-card__heading"><span class="skill-card__symbol" aria-hidden="true"><svg class="skill-category-icon" width="16" height="16" aria-hidden="true"><use href="{{ '/images/skills/symbols.svg' | relative_url }}#deploy"></use></svg></span><h3>Infrastructure &amp; delivery</h3></div>
+      <p>Cloud, hybrid, and offline systems with repeatable releases.</p>
+      <ul class="skill-list"><li><img class="skill-icon" src="{{ '/images/skills/docker.svg' | relative_url }}" alt="" width="16" height="16" loading="lazy"><span>Docker</span></li><li><img class="skill-icon" src="{{ '/images/skills/kubernetes.svg' | relative_url }}" alt="" width="16" height="16" loading="lazy"><span>Kubernetes</span></li><li><img class="skill-icon" src="{{ '/images/skills/amazonwebservices.svg' | relative_url }}" alt="" width="16" height="16" loading="lazy"><span>AWS SageMaker / Lambda / S3</span></li><li><img class="skill-icon" src="{{ '/images/skills/azure.svg' | relative_url }}" alt="" width="16" height="16" loading="lazy"><span>Azure Pipelines</span></li><li><img class="skill-icon" src="{{ '/images/skills/jenkins.svg' | relative_url }}" alt="" width="16" height="16" loading="lazy"><span>Jenkins</span></li><li><img class="skill-icon" src="{{ '/images/skills/sonatype.svg' | relative_url }}" alt="" width="16" height="16" loading="lazy"><span>Nexus</span></li><li><img class="skill-icon" src="{{ '/images/skills/sonarqubeserver.svg' | relative_url }}" alt="" width="16" height="16" loading="lazy"><span>SonarQube</span></li><li><img class="skill-icon" src="{{ '/images/skills/pytest.svg' | relative_url }}" alt="" width="16" height="16" loading="lazy"><span>Pytest / Mockito</span></li><li><img class="skill-icon" src="{{ '/images/skills/selenium.svg' | relative_url }}" alt="" width="16" height="16" loading="lazy"><span>Selenium / Postman</span></li><li><img class="skill-icon" src="{{ '/images/skills/git.svg' | relative_url }}" alt="" width="16" height="16" loading="lazy"><span>Git</span></li><li><svg class="skill-icon" width="16" height="16" aria-hidden="true"><use href="{{ '/images/skills/symbols.svg' | relative_url }}#loop"></use></svg><span>CI/CD &amp; TDD</span></li></ul>
+    </article>
+    <article class="skill-card">
+      <div class="skill-card__heading"><span class="skill-card__symbol" aria-hidden="true"><svg class="skill-category-icon" width="16" height="16" aria-hidden="true"><use href="{{ '/images/skills/symbols.svg' | relative_url }}#shield"></use></svg></span><h3>Operations &amp; integration</h3></div>
+      <p>Identity, observability, and the workflows around a running system.</p>
+      <ul class="skill-list"><li><img class="skill-icon" src="{{ '/images/skills/keycloak.svg' | relative_url }}" alt="" width="16" height="16" loading="lazy"><span>Keycloak / SSO</span></li><li><svg class="skill-icon" width="16" height="16" aria-hidden="true"><use href="{{ '/images/skills/symbols.svg' | relative_url }}#shield"></use></svg><span>RBAC</span></li><li><svg class="skill-icon" width="16" height="16" aria-hidden="true"><use href="{{ '/images/skills/symbols.svg' | relative_url }}#key"></use></svg><span>Mutual TLS</span></li><li><img class="skill-icon" src="{{ '/images/skills/prometheus.svg' | relative_url }}" alt="" width="16" height="16" loading="lazy"><span>Prometheus</span></li><li><img class="skill-icon" src="{{ '/images/skills/grafana.svg' | relative_url }}" alt="" width="16" height="16" loading="lazy"><span>Grafana</span></li><li><svg class="skill-icon" width="16" height="16" aria-hidden="true"><use href="{{ '/images/skills/symbols.svg' | relative_url }}#chart"></use></svg><span>Process telemetry</span></li><li><img class="skill-icon" src="{{ '/images/skills/raspberrypi.svg' | relative_url }}" alt="" width="16" height="16" loading="lazy"><span>Raspberry Pi</span></li><li><img class="skill-icon" src="{{ '/images/skills/odoo.svg' | relative_url }}" alt="" width="16" height="16" loading="lazy"><span>Odoo</span></li></ul>
+    </article>
+  </div>
+</section>
+
+<section id="work" class="section">
+  <div class="section-heading"><div><p class="eyebrow">SELECTED WORK / ENGINEERING</p><h2 class="section-title">Built in code.<br><span class="muted">Proven in the field.</span></h2></div><p class="section-heading__aside">Ownership from architecture<br>to deployment and troubleshooting.</p></div>
+  <article class="work-feature ssam-feature">
+    <div class="work-feature__copy">
+      <p class="eyebrow">SAM ANALYTICS / SSAM</p>
+      <h3>A ground-up rewrite.<br>A different class<br>of system.</h3>
+      <p>I rewrote SSAM end to end: a single-threaded application became a multithreaded, multiprocess system with PID-level process management, process telemetry, and packaged Windows binaries.</p>
+      <p>The streaming stack moved from OpenCV to FFmpeg, MediaMTX, and WHEP playback, with restreaming for camera feeds.</p>
+      <div class="tag-row"><span class="tag">Python</span><span class="tag">FFmpeg</span><span class="tag">MediaMTX</span><span class="tag">Multiprocessing</span><span class="tag">Windows</span></div>
+      <div class="project-metric"><strong>20+</strong><span>SSAM / LADS field units<br>deployed, supported &amp; maintained</span></div>
+    </div>
+    <div class="ssam-visual">
+      <p class="eyebrow">THE STREAMING PATH <span>SIMPLIFIED ILLUSTRATION</span></p>
+      <ol class="stream-flow" aria-label="Simplified SSAM streaming architecture">
+        <li><span class="flow-icon" aria-hidden="true">◉</span><div><b>Camera feeds</b><span>Five-stream comparison workload</span></div></li>
+        <li><span class="flow-icon" aria-hidden="true">↳</span><div><b>FFmpeg → MediaMTX</b><span>Streaming &amp; restreaming</span></div></li>
+        <li><span class="flow-icon" aria-hidden="true">↗</span><div><b>WHEP / WebRTC</b><span>Video delivered to the viewer</span></div></li>
+      </ol>
+      <div class="ssam-results">
+        <div><span class="result-label">MEMORY</span><strong>~1 GB</strong><span>total for five streams</span><small>Before: 1.5–2 GB per stream at 720p</small></div>
+        <div><span class="result-label">CPU UTILIZATION</span><strong>~5%</strong><span>after the streaming rewrite</span><small>Before: ~100% on an Intel i5</small></div>
+      </div>
+      <p class="benchmark-note">Approximate observed results for the same five-stream camera workload; not a standardized benchmark.</p>
+    </div>
+  </article>
+  <details class="project-details">
+    <summary>The engineering behind the rewrite <span aria-hidden="true">+</span></summary>
+    <div class="project-details__grid">
+      <div><p class="eyebrow">EXECUTION &amp; OPERATIONS</p><h3>Beyond a single thread.</h3><p>Moved from single-threaded execution to threads and separate processes, with PID-level management and telemetry to understand what each process was doing. Replaced script-based deployment with a packaged Windows executable.</p></div>
+      <div><p class="eyebrow">FIELD INTEGRATION</p><h3>Part of a bigger system.</h3><p>Integrated DNP3 and Modbus TCP for utility SCADA telemetry and alarm backhaul, centralized identity with Keycloak, and supported cloud, hybrid, and fully offline deployments. My role includes field troubleshooting and direct work with utility clients.</p></div>
+    </div>
+  </details>
+  <div class="work-grid">
+    <article class="work-card">
+      <div class="pipeline-visual" role="img" aria-label="Illustrative edge AI workflow: teacher model, distillation, ONNX export, edge deployment"><span>TEACHER</span><i aria-hidden="true">→</i><span>DISTILL</span><i aria-hidden="true">→</i><span>ONNX</span><i aria-hidden="true">→</i><span>EDGE</span></div>
+      <div class="work-card__body"><p class="eyebrow">COMPUTER VISION / OFFLINE DEPLOYMENT</p><h3>Vision beyond the cloud.</h3><p>A local industrial-component detection pipeline using a LoRA-adapted DINOv2 teacher and DETR head. Distilled into a ConvNeXt-Tiny student with a lightweight detection head, with ONNX export for edge deployment. MobileSAM and FastSAM support mask generation and proposal refinement.</p><p>Additional deployment work spans FFmpeg, ONNX, and TensorRT on NVIDIA Jetson Orin NX.</p><div class="tag-row"><span class="tag">PyTorch</span><span class="tag">DINOv2</span><span class="tag">ONNX</span><span class="tag">TensorRT</span></div></div>
+    </article>
+    <article class="work-card">
+      <div class="extraction-visual" role="img" aria-label="Illustrative utility analytics workflow from telemetry through rules to insights"><div><span>MQTT</span><span>DATA</span></div><i aria-hidden="true">→</i><b>DAG<br><span>RULE ENGINE</span></b><i aria-hidden="true">→</i><span class="data-symbol" aria-hidden="true">↗</span></div>
+      <div class="work-card__body"><p class="eyebrow">SAM ANALYTICS / UTILITY ANALYTICS</p><h3>Telemetry with a purpose.</h3><p>A utility analytics platform built with Next.js, Python, and TimescaleDB. A directed acyclic graph rule engine adds governance, rule-definition tracking, and execution tracking to the analytics workflow.</p><p>Related operations work connects FastAPI and EMQX telemetry with Prometheus and Grafana for monitoring.</p><div class="tag-row"><span class="tag">Next.js</span><span class="tag">TimescaleDB</span><span class="tag">MQTT</span><span class="tag">Grafana</span></div></div>
+    </article>
+  </div>
+  <div class="earlier-work">
+    <p class="eyebrow">EARLIER / WOLFSPEED</p>
+    <div><h3>Manufacturing data &amp; delivery.</h3><p>A data dictionary spanning 300+ MES database objects, Azure CI/CD standardization that reduced deployment cycle time by 30%, and a Flutter / Java OCR app that doubled batch-tagging efficiency.</p><div class="tag-row"><span class="tag">SQL</span><span class="tag">Azure Pipelines</span><span class="tag">Flutter</span><span class="tag">Java</span></div></div>
+  </div>
+  <article class="earlier-work">
+    <p class="eyebrow">DATA ENGINEERING / NLP RESEARCH</p>
+    <div><h3>Making sense of online discourse.</h3><p>Built an ETL pipeline for 200+ GB of Reddit and 4chan API data in PostgreSQL. An NLTK pipeline analyzed sentiment and hate speech across 10,000+ comments, with Grafana dashboards for discussion trends and exploratory analysis.</p><div class="tag-row"><span class="tag">Python / NLTK</span><span class="tag">PostgreSQL</span><span class="tag">Grafana</span></div></div>
+  </article>
+</section>
+
+<section id="about" class="about-strip section"><p class="eyebrow">HOW I WORK</p><h2>From the architecture<br><span class="muted">to the field call.</span></h2><p>I like owning the whole path: understanding the problem, designing the system, writing the code, and finding out what actually happens after deployment. My work connects computer vision, video, industrial protocols, and infrastructure—and includes being the person who troubleshoots it in the field.</p><div class="outside-work"><p class="eyebrow">OUTSIDE WORK</p><div><h3>Guitar, tinkering, and figuring things out.</h3><p>My homelab is a hobby and a place to learn. I’m exploring virtualization, self-hosting, storage, and automation with Proxmox, ZimaOS, TrueNAS, and n8n—and making time for guitar along the way.</p></div></div></section>
+
+<section id="experience" class="section" data-reveal>
+  <p class="eyebrow">THE PATH SO FAR</p>
+  <h2 class="section-title">Where I’ve put it to work.</h2>
+  <div class="exp-grid">
+    <div class="exp-list">
+      <article class="exp-item">
+        <h3 class="exp-item__role">Systems Engineer</h3>
+        <p class="exp-item__org">SAM Analytics · Durham, NC</p>
+        <p class="exp-item__time">2025.01 — Present</p>
+        <p class="exp-item__desc">Build computer vision, telemetry, and analytics systems for electrical utilities, with ownership from architecture and implementation to field deployment.</p>
+        <ul class="exp-highlights">
+          <li><strong>SSAM &amp; field delivery.</strong> Rewrote SSAM end to end, including concurrent execution, the video streaming stack, process telemetry, and Windows packaging. Deploy, troubleshoot, and maintain SSAM/LADS across 20+ field units, working directly with utility clients.</li>
+          <li><strong>Computer vision &amp; edge AI.</strong> Designed thermographic inspection pipelines for overheating, degradation, and fault patterns in substations and equipment. Built FFmpeg, ONNX, and TensorRT detection pipelines for NVIDIA Jetson Orin NX.</li>
+          <li><strong>SCADA &amp; interoperability.</strong> Integrated DNP3 and Modbus TCP for real-time telemetry and alarm backhaul. Developed an SSAM bridge for Sparkplug-based Unified Namespace communication.</li>
+          <li><strong>Analytics &amp; observability.</strong> Built a Next.js, Python, and TimescaleDB analytics platform with a governed DAG rule engine and rule/execution tracking. Created a FastAPI and EMQX operations server with Prometheus and Grafana monitoring.</li>
+          <li><strong>Identity &amp; deployment.</strong> Centralized identity with Keycloak for SSO and federated authentication. Developed cloud, hybrid, and fully offline deployment pipelines for connectivity-constrained environments.</li>
+        </ul>
+        <details class="exp-more">
+          <summary>Additional systems &amp; integrations <span aria-hidden="true">+</span></summary>
+          <ul class="exp-highlights">
+          <li><strong>Embedded systems &amp; networking.</strong> Integrated microcontrollers, MQTT telemetry, and server-generated QR codes for monitoring and access workflows. Used GStreamer, Raspberry Pi devices, and sensors for cabinet monitoring and Peltier cooling control; implemented STUN/TURN video relay connectivity.</li>
+          <li><strong>Kiosk operations.</strong> Designing a provisioning workflow with mutual TLS, zero-trust access controls, and app-based QR scanning. Customized Odoo interfaces and workflows for kiosk operations and inventory management.</li>
+          </ul>
+        </details>
+      </article>
+      <article class="exp-item">
+        <h3 class="exp-item__role">Solutions Architect Co-op</h3>
+        <p class="exp-item__org">Wolfspeed · Durham, NC</p>
+        <p class="exp-item__time">2023.08 — 2024.05</p>
+        <p class="exp-item__desc">Worked across manufacturing data architecture, application development, and Industry 4.0 prototypes.</p>
+        <ul class="exp-highlights">
+          <li><strong>Data architecture.</strong> Created an MES data dictionary spanning 300+ database objects and optimized archiving workflows, contributing to a 20% improvement in data flow efficiency.</li>
+          <li><strong>Applications &amp; access.</strong> Built a real-time Android OCR application with Flutter and Java that doubled batch-tagging efficiency. Developed SQL-backed Django APIs with role-based access controls.</li>
+          <li><strong>Applied AI &amp; industrial research.</strong> Prototyped GPT4All retrieval with BM25 and Qdrant. Evaluated predictive maintenance, message queues, and MQTT-based Unified Namespace architectures.</li>
+        </ul>
+      </article>
+      <article class="exp-item">
+        <h3 class="exp-item__role">MES Intern</h3>
+        <p class="exp-item__org">Wolfspeed · Durham, NC</p>
+        <p class="exp-item__time">2023.05 — 2023.08</p>
+        <p class="exp-item__desc">Improved software delivery, build governance, and image-based manufacturing inspection.</p>
+        <ul class="exp-highlights">
+          <li><strong>CI/CD &amp; artifacts.</strong> Standardized Azure pipelines for .NET, Python, and Java, reducing deployment cycle time by 30%. Integrated on-premises Nexus repositories for build artifact storage and access.</li>
+          <li><strong>Quality &amp; testing.</strong> Added SonarQube static analysis, reducing critical vulnerabilities by 12%. Automated TDD workflows with Pytest and Mockito, achieving 82% test coverage.</li>
+          <li><strong>Computer vision.</strong> Developed a Python wafer-defect segmentation model using watershed and image processing, improving defect detection accuracy by 30%.</li>
+        </ul>
+      </article>
+      <article class="exp-item">
+        <h3 class="exp-item__role">Instructor</h3>
+        <p class="exp-item__org">ASN Computer Education · Pune, India</p>
+        <p class="exp-item__time">2021.08 — 2022.07</p>
+        <p class="exp-item__desc">Taught practical programming, cloud computing, and cybersecurity.</p>
+        <ul class="exp-highlights">
+          <li><strong>Cloud &amp; cybersecurity.</strong> Delivered 120+ hours of instruction to 50+ students.</li>
+          <li><strong>Java &amp; OOP.</strong> Taught 40+ students, with 90% successfully developing functional applications.</li>
+        </ul>
+      </article>
+      <article class="exp-item">
+        <h3 class="exp-item__role">Associate Developer</h3>
+        <p class="exp-item__org">Anveshak Technologies and Knowledge Solutions · Pune, India</p>
+        <p class="exp-item__time">2020.09 — 2021.06</p>
+        <p class="exp-item__desc">Built data extraction, cloud inference, and 3D processing workflows.</p>
+        <ul class="exp-highlights">
+          <li><strong>Data extraction.</strong> Built a PDF ETL pipeline with preprocessing and cleaning that tripled tender-information retrieval speed versus manual methods.</li>
+          <li><strong>Cloud inference.</strong> Implemented a Python inference pipeline with AWS SageMaker, S3, and Lambda for data processing and model predictions.</li>
+          <li><strong>3D automation.</strong> Automated mesh generation and point cloud extraction from depth images using the Blender API.</li>
+        </ul>
+      </article>
+    </div>
+    <div>
+      <h3 class="kicker">Education</h3>
+      <div class="edu-item">
+        <h3>M.S. Computer Science</h3>
+        <p>Binghamton University, SUNY</p>
+        <p>Aug 2022 — May 2024 · GPA 3.51/4.00</p>
+      </div>
+      <div class="edu-item">
+        <h3>B.E. Computer Engineering</h3>
+        <p>Savitribai Phule Pune University</p>
+        <p>Aug 2016 — May 2020 · GPA 7.81/10.00</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="notes" class="section" data-reveal>
+  <p class="eyebrow">THINKING OUT LOUD</p>
+  <h2 class="section-title">Notes from the workbench.</h2>
+  <p class="section__intro">
+    Short writeups on systems, delivery, and the messy middle between code and production.
+  </p>
+  {% if site.posts.size > 0 %}
+  <div class="notes-list">
+    {% for post in site.posts limit:3 %}
+    <a class="note-card" href="{{ post.url | relative_url }}">
+      <time class="note-card__date" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%-d %B %Y" }}</time>
+      <h3 class="note-card__title">{{ post.title }}</h3>
+      {% if post.description %}
+      <p class="note-card__excerpt">{{ post.description }}</p>
+      {% endif %}
+    </a>
+    {% endfor %}
+  </div>
+  <p class="notes-more">
+    <a class="text-link" href="{{ '/blog/' | relative_url }}">All notes</a>
+  </p>
+  {% else %}
+  <p class="notes-empty">Notes landing soon. Check back after the first post ships.</p>
+  {% endif %}
+</section>
+
+<section id="contact" class="section" data-reveal>
+  <p class="eyebrow">NEXT CONVERSATION</p>
+  <h2 class="section-title">Let’s build<br>something that lasts. <span aria-hidden="true">↗</span></h2>
+  <p class="section__intro">
+    Have a role, a project, or a systems problem worth untangling? Let’s talk.
+  </p>
+  <div class="contact-grid">
+    <div class="contact-block">
+      <h3>Reach me</h3>
+      <div class="contact-links">
+        <a class="contact-mail" href="mailto:pmparitoshmarathe@gmail.com">pmparitoshmarathe@gmail.com</a>
+        <a href="tel:+19177331902">+1 917 733 1902</a>
+      </div>
+    </div>
+    <div class="contact-block">
+      <h3>Social</h3>
+      <ul class="contact-social">
+        <li><a href="https://github.com/paritosh-marathe">GitHub</a></li>
+        <li><a href="https://www.linkedin.com/in/paritosh-marathe">LinkedIn</a></li>
+        <li><a href="https://www.instagram.com/paritosh_marathe">Instagram</a></li>
+      </ul>
+    </div>
+  </div>
+</section>

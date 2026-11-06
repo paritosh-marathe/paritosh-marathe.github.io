@@ -1,0 +1,31 @@
+---
+layout: default
+title: Notes
+description: Notes on systems engineering, delivery, and production platforms.
+body_class: page-blog
+permalink: /blog/
+---
+
+<header class="page-header" data-reveal>
+  <h1>Notes</h1>
+  <p>
+    Field notes on pipelines, platforms, and the operational details that
+    usually stay in someone’s head.
+  </p>
+</header>
+
+{% if site.posts.size > 0 %}
+<div class="blog-list" data-reveal>
+  {% for post in site.posts %}
+  <a class="note-card" href="{{ post.url | relative_url }}">
+    <time class="note-card__date" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%-d %B %Y" }}</time>
+    <h2 class="note-card__title">{{ post.title }}</h2>
+    {% if post.description %}
+    <p class="note-card__excerpt">{{ post.description }}</p>
+    {% endif %}
+  </a>
+  {% endfor %}
+</div>
+{% else %}
+<p class="notes-empty" data-reveal>No notes published yet.</p>
+{% endif %}
